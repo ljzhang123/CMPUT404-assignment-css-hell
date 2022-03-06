@@ -1,3 +1,22 @@
 body {
-    background-color: powderblue;
+    background-color: #e7d8bc;
+    background-image: linear-gradient(to right, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%),
+                      linear-gradient(to left, rgba(255,210,0,0.4), rgba(200, 160, 0, 0.1) 11%, rgba(0,0,0,0) 35%, rgba(200, 160, 0, 0.1) 65%);
+    margin-right: 20% !important;
+    margin-left: 20% !important;
+}
+
+.blockquot {
+    font-style: italic;
+}
+.stanza{
+    font-family: 'Brush Script MT', 'Brush Script Std', cursive;
+    font-size: 1.5em;
+}
+.fig {
+    width: 30% !important;
+}
+
+p, h1, h2, h3 {
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
 }
